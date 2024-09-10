@@ -187,3 +187,23 @@ input {
     left: -35px;
     content: "✖";
 }
+/* Style for the footer */
+.footer {
+    text-align: center; /* Center the text */
+    font-size: 12px; /* Smaller font size */
+    color: #555; /* Gray text color */
+    margin-top: 20px; /* Space above the footer */
+    padding: 10px 0; /* Padding on top and bottom */
+}
+
+/* Style for the links in the footer */
+.footer a {
+    color: #f3fcfa; /* Link color (match with your theme) */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the links bold */
+}
+
+/* Hover effect for the links */
+.footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

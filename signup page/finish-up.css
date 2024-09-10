@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.body {
+    background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#18363a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:#17a589;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0c4230; /* Updated button background color */
+    color: #fff;
+    border: none;
+    border-radius: 25px; /* Adjusted to match the previous rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; /* Added for consistency with previous style */
+    text-transform: uppercase; /* Added for consistency with previous style */
+    letter-spacing: 1px; /* Added for consistency with previous style */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    width: 100%;
+    max-width: 200px; /* Optional: Limit the button's max width */
+    margin: 10px auto; /* Center the button with margin */
+    display: block; /* Block-level element to center */
+}
+
+button:hover {
+    background-color: #0a5240; /* Updated hover background color */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+button:active {
+    background-color: #0d4734; /* Updated active background color */
+    transform: scale(1.02); /* Slightly decrease size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Less shadow when clicked */
+}
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+input[type="text"] {
+    width: 100%; /* Make the input fields take full width of their container */
+    padding: 10px; /* Add some padding inside the input fields */
+    margin-bottom: 15px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for the text inside the input fields */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    transition: border-color 0.3s ease; /* Smooth transition for border color change */
+}
+
+input[type="text"]::placeholder {
+    color: #888; /* Placeholder text color */
+    font-style: italic; /* Italicize placeholder text */
+}
+
+input[type="text"]:focus {
+    border-color: #145f46; /* Change border color on focus */
+    outline: none; /* Remove the default outline on focus */
+}
+
+
+/* Style for the links in the footer */
+.footer a {
+    color: #e4f3f0; /* Link color (match with your theme) */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the links bold */
+}
+
+/* Hover effect for the links */
+.footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

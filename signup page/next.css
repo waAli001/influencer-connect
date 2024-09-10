@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/* Style for the header container */
 
-.body {
-    background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.container-1{
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e3d7d7;
 }
-/* Style for the social button container */
+
+
+
+
+
 .social-buttons {
     text-align: center;
     margin: 20px;
@@ -64,3 +70,14 @@ button:active {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Less shadow when clicked */
 }
 
+
+.footer a {
+  color: #e9f7f4; /* Link color (match with your theme) */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the links bold */
+}
+
+/* Hover effect for the links */
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
